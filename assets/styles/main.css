@@ -229,7 +229,6 @@ main {
     }
 
     .link img {
-        width: 5vw;
-        margin-left: 1vw;
+        display: none;
     }
 }
