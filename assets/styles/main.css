@@ -38,6 +38,11 @@ a {
     color: inherit;
 }
 
+span {
+    font-size: 8vw;
+    font-weight: 700;
+}
+
 body {
     font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu;
     justify-content: center;
@@ -195,10 +200,15 @@ main {
     h1 {
         font-size: 27vw;
     }
+
     h5,
     p {
         font-size: 4vw;
         line-height: 2em;
+    }
+
+    span {
+        font-size: 13vw;
     }
 
     .content {
@@ -230,5 +240,33 @@ main {
 
     .link img {
         display: none;
+    }
+}
+
+@media only screen and (max-height: 940px) {
+    h1 {
+        font-size: 35vh;
+    }
+
+    h5,
+    p {
+        font-size: 4vh;
+        line-height: 2em;
+    }
+
+    span {
+        font-size: 15vh;
+    }
+
+    .content img {
+        width: 80vh;
+    }
+
+    #background1,
+    #background2,
+    #background3 {
+    display: flex;
+    width: 100%;
+    height: 100%;
     }
 }
