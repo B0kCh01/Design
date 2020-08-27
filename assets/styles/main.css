@@ -17,6 +17,11 @@ h2 {
     font-size: 7em;
 }
 
+h3 {
+    font-weight: 700;
+    font-size: 2.8em;
+}
+
 h5 {
     font-weight: 700;
     font-size: 1.5em;
@@ -28,9 +33,17 @@ p {
     line-height: 2.5em;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
 
 body {
     font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu;
+}
+
+main {
+    margin: 100px 200px;
 }
 
 .title {
@@ -45,6 +58,10 @@ body {
 
 .title h1 {
     line-height: 2em;
+}
+
+.header {
+    margin-bottom: 70px;
 }
 
 .background {
@@ -91,4 +108,69 @@ body {
     width: 30px;
     height: 30px;
     margin-left: 10px;
+}
+
+.components {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.sidebar p {
+    opacity: 0.25;
+    margin-bottom: 15px;
+}
+
+.button {
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    padding: 30px 20px;
+    border-radius: 20px;
+    user-select: none;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+}
+
+.button img {
+    width: 65px;
+    height: 65px;
+    margin-right: 20px;
+}
+
+.button-text {
+    display: flex;
+    flex-direction: column;
+    line-height: 2em;
+    justify-content: space-between;
+}
+
+.button-text p {
+    opacity: 0.25;
+    line-height: 1em;
+    margin-bottom: 0;
+}
+
+.button:hover {
+    background-color: #f0f0f0;
+}
+
+.expand {
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+}
+
+.expand p {
+    opacity: 0.25;
+}
+
+.expand img {
+    width: 20%;
+    background-color: #f0f0f0;
+    padding: 170px 360px;
+    border-radius: 20px;
+    margin: 25px 0px;
 }
