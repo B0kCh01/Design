@@ -192,8 +192,10 @@ main {
 }
 
 @media only screen and (max-width: 1850px) {
-    .title p {
-        font-size: 1.7vw;
+    h5,
+    p {
+        font-size: 4vw;
+        line-height: 2em;
     }
 
     .content {
@@ -208,7 +210,7 @@ main {
     }
 
     .content img {
-        width: 35vw;
+        width: 75vw;
     }
 
     .main-text {
@@ -216,12 +218,7 @@ main {
     }
 
     .main-text p {
-        font-size: 1.7vw;
         width: 75vw;
-    }
-
-    .link h5 {
-        font-size: 1.7vw;
     }
 
     .link img {
