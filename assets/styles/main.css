@@ -154,7 +154,7 @@ main {
 }
 
 .button:hover {
-    background-color: #f0f0f0;
+    background-color: #f7f7f7;
 }
 
 .expand {
@@ -169,7 +169,7 @@ main {
 
 .expand img {
     width: 20%;
-    background-color: #f0f0f0;
+    background-color: #f7f7f7;
     padding: 170px 360px;
     border-radius: 20px;
     margin: 25px 0px;
