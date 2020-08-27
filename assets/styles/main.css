@@ -243,11 +243,15 @@ main {
     }
 }
 
-@media only screen and (max-height: 940px) {
+@media only screen and (max-height: 800px) {
     .title {
-        height: 100vw;
+        height: 100vh;
     }
-    
+
+    .title p {
+        display: none;
+    }
+
     #background1,
     #background2,
     #background3 {
