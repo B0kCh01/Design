@@ -9,7 +9,7 @@ h5 {
 
 h1 {
     font-weight: 700;
-    font-size: 17vw;
+    font-size: 21em;
 }
 
 h2 {
@@ -192,6 +192,9 @@ main {
 }
 
 @media only screen and (max-width: 1850px) {
+    h1 {
+        font-size: 27vw;
+    }
     h5,
     p {
         font-size: 4vw;
@@ -209,8 +212,12 @@ main {
         height: 100%;
     }
 
+    .content {
+        margin: 10vw 6vw;
+    }
+
     .content img {
-        width: 75vw;
+        width: 100%;
     }
 
     .main-text {
@@ -218,12 +225,11 @@ main {
     }
 
     .main-text p {
-        width: 75vw;
+        width: 100%;
     }
 
     .link img {
-        width: 3vw;
-        height: 3vw;
+        width: 5vw;
         margin-left: 1vw;
     }
 }
