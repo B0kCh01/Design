@@ -228,6 +228,25 @@ main {
     width: 20%;
 }
 
+@media only screen and (max-width: 1490px) {
+    .sidebar {
+        display: none;
+    }
+
+    .expand {
+        width: 100%;
+    }
+
+    .expand img {
+        width: 35%;
+    }
+
+    .expand .main-image {
+        width: 100%;
+        height: 55vw;
+    }
+}
+
 @media only screen and (max-width: 1180px) {
     h1 {
         font-size: 27vw;
@@ -286,20 +305,6 @@ main {
     .link img {
         display: none;
     }
-
-    .expand {
-        width: 100%;
-    }
-
-    .expand img {
-        width: 35%;
-    }
-
-    .expand .main-image {
-        width: 100%;
-        height: 55vw;
-    }
-
 }
 
 @media only screen and (max-width: 320px) {
