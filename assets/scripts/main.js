@@ -3,8 +3,8 @@ var element = document.getElementById("selector");
 
 if (!enable) {
     element.classList.add("selected");
-    
-} else {
+} 
+else {
     element.classList.remove("selected"); 
 }
 
