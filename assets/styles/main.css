@@ -9,27 +9,27 @@ h5 {
 
 h1 {
     font-weight: 700;
-    font-size: 21em;
+    font-size: 19em;
 }
 
 h2 {
     font-weight: 700;
-    font-size: 7em;
+    font-size: 6.3em;
 }
 
 h3 {
     font-weight: 700;
-    font-size: 2.8em;
+    font-size: 2.3em;
 }
 
 h5 {
     font-weight: 700;
-    font-size: 1.5em;
+    font-size: 1.1em;
 }
 
 p {
     font-weight: 400;
-    font-size: 1.5em;
+    font-size: 1.1em;
     line-height: 2.5em;
 }
 
@@ -139,7 +139,7 @@ main {
     align-items: flex-start;
 }
 
-.sidebar p {
+.sidebar h5 {
     opacity: 0.25;
     margin-bottom: 15px;
 }
@@ -147,8 +147,8 @@ main {
 .button {
     display: flex;
     flex-direction: row;
-    width: 400px;
-    padding: 30px 20px;
+    width: 300px;
+    padding: 20px 20px;
     border-radius: 20px;
     user-select: none;
     -webkit-touch-callout: none;
@@ -156,22 +156,25 @@ main {
 }
 
 .button img {
-    width: 65px;
-    height: 65px;
-    margin-right: 20px;
+    width: 50px;
+    margin-right: 10px;
 }
 
 .button-text {
     display: flex;
     flex-direction: column;
-    line-height: 2em;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .button-text p {
     opacity: 0.25;
-    line-height: 1em;
     margin-bottom: 0;
+    line-height: 1em;
+}
+
+.button-text h5 {
+    opacity: 1;
+    margin-bottom: 5px;
 }
 
 .button:hover {
@@ -181,7 +184,7 @@ main {
 .expand {
     display: flex;
     flex-direction: column;
-    width: 900px;
+    width: 780px;
 }
 
 .expand p {
@@ -191,14 +194,18 @@ main {
 .expand img {
     width: 20%;
     background-color: #f7f7f7;
-    padding: 170px 360px;
+    padding: 170px 300px;
     border-radius: 20px;
     margin: 25px 0px;
 }
 
-@media only screen and (max-width: 1850px) {
+@media only screen and (max-width: 1660px) {
     h1 {
         font-size: 27vw;
+    }
+
+    h3 {
+        font-size: 7vw;
     }
 
     h5,
@@ -207,8 +214,16 @@ main {
         line-height: 2em;
     }
 
-    span {
+    .main-text p span {
         font-size: 13vw;
+    }
+
+    .header p span {
+        font-size: 13vw;
+    }
+
+    .sidebar {
+        display: none;
     }
 
     .content {
@@ -220,6 +235,10 @@ main {
     #background2,
     #background3 {
         height: 100%;
+    }
+
+    main {
+        margin: 10vw 6vw;
     }
 
     .content {
