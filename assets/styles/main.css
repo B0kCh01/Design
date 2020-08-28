@@ -27,6 +27,11 @@ h5 {
     font-size: 1.1em;
 }
 
+h6 {
+    font-weight: 500;
+    font-size: 1.1em;
+}
+
 p {
     font-weight: 400;
     font-size: 1.1em;
@@ -151,7 +156,7 @@ main {
     align-items: flex-start;
 }
 
-.sidebar h5 {
+.sidebar h6 {
     opacity: 0.25;
     margin-bottom: 15px;
 }
@@ -162,9 +167,14 @@ main {
     width: 300px;
     padding: 20px 20px;
     border-radius: 20px;
+    margin: 10px 0px;
     user-select: none;
     -webkit-touch-callout: none;
     -webkit-user-select: none;
+}
+
+.button.selected {
+    background-color: #ffcc00;
 }
 
 .button img {
