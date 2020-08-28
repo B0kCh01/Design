@@ -48,6 +48,7 @@ body {
     justify-content: center;
     align-items: center;
     overflow-x: hidden;
+    background-color: white;
 }
 
 main {
@@ -61,7 +62,6 @@ main {
     text-align: center;
     justify-content: center;
     align-items: center;
-    background-color: white;
 }
 
 .title p {
@@ -81,13 +81,20 @@ main {
 }
 
 #background1,
-#background2,
-#background3,
-#background4 {
+#background2 {
     display: flex;
     width: 100%;
     height: 100vh;
     background-color: black;
+}
+
+#background3 p{
+    color: black;
+    width: 600px;
+}
+
+#background3 .content {
+    margin: 0;
 }
 
 .content {
@@ -242,8 +249,7 @@ main {
 
     #background1,
     #background2,
-    #background3,
-    #background4 {
+    #background3 {
         height: 100%;
     }
 
@@ -297,8 +303,7 @@ main {
 
     #background1,
     #background2,
-    #background3,
-    #background4 {
+    #background3 {
     display: flex;
     width: 100%;
     height: 100%;
