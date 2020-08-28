@@ -1,19 +1,5 @@
-var enable = false;
-var element = document.getElementById("selector");
-
-if (!enable) {
-    element.classList.add("selected");
-} 
-else {
-    element.classList.remove("selected"); 
-}
-
-function click() {
-    if (enable) {
-        element.classList.add("selected");
-    }
-    else {
-        element.classList.remove("selected");
-    }
-    enable = !enable;
+function toggleSwitch() {
+    let button = document.getElementById("sidebar-toggle");
+    console.log;
+    button.classList.toggle("selected");
 }

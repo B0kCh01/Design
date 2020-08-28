@@ -24,17 +24,17 @@ h3 {
 
 h5 {
     font-weight: 700;
-    font-size: 1.1em;
+    font-size: 1.125em;
 }
 
 h6 {
     font-weight: 500;
-    font-size: 1.1em;
+    font-size: 1.125em;
 }
 
 p {
     font-weight: 400;
-    font-size: 1.1em;
+    font-size: 1.125em;
     line-height: 2.5em;
 }
 
@@ -161,7 +161,7 @@ main {
     margin-bottom: 15px;
 }
 
-.button {
+button {
     display: flex;
     flex-direction: row;
     width: 300px;
@@ -171,13 +171,26 @@ main {
     user-select: none;
     -webkit-touch-callout: none;
     -webkit-user-select: none;
+    border: none;
+    outline: none;
+    background-color: white;
+    cursor: pointer;
 }
 
-.button.selected {
+button.selected {
+    background-color: #ffcc00;
+    color: white;
+}
+
+button.selected:hover {
     background-color: #ffcc00;
 }
 
-.button img {
+button.selected p {
+    opacity: 1;
+}
+
+button img {
     width: 50px;
     margin-right: 10px;
 }
@@ -186,6 +199,8 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    text-align: initial;
+
 }
 
 .button-text p {
@@ -199,7 +214,7 @@ main {
     margin-bottom: 5px;
 }
 
-.button:hover {
+button:hover {
     background-color: #f7f7f7;
 }
 
