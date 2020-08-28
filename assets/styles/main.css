@@ -47,6 +47,7 @@ body {
     font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu;
     justify-content: center;
     align-items: center;
+    overflow-x: hidden;
 }
 
 main {
@@ -184,19 +185,26 @@ main {
 .expand {
     display: flex;
     flex-direction: column;
-    width: 780px;
+    width: 730px;
 }
 
 .expand p {
     opacity: 0.25;
 }
 
-.expand img {
-    width: 20%;
+.expand .main-image {
+    display: flex;
     background-color: #f7f7f7;
-    padding: 170px 300px;
     border-radius: 20px;
     margin: 25px 0px;
+    height: 450px;
+    width: 730px;
+    align-items: center;
+    justify-content: center;
+}
+
+.expand img {
+    width: 20%;
 }
 
 @media only screen and (max-width: 1660px) {
@@ -260,6 +268,20 @@ main {
     .link img {
         display: none;
     }
+
+    .expand {
+        width: 100%;
+    }
+
+    .expand img {
+        width: 35%;
+    }
+
+    .expand .main-image {
+        width: 100%;
+        height: 55vw;
+    }
+
 }
 
 @media only screen and (max-height: 800px) {
